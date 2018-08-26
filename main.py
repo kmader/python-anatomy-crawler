@@ -4,11 +4,11 @@
 import radiopaedia.commands
 import fma.commands
 import unifr.commands
-from spiderpig import run_spiderpig
+from spiderpig import run_cli
 
 
 if __name__ == '__main__':
-    run_spiderpig(
+    run_cli(
         namespaced_command_packages={
             'radiopaedia': radiopaedia.commands,
             'fma': fma.commands,
